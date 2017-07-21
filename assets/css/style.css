@@ -1,0 +1,24 @@
+
+
+.img-responsive {
+  width: 100px;
+}
+
+.page-header {
+  text-align: center;
+}
+
+#text {
+  text-align: center;
+}
+
+#crystal-line {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+body {
+  background-color: lightgray;
+
+  margin: auto 2%;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>week-4-game</title>
+</head>
+<body>
+  <div class="container">
+    <div class="page-header">
+          <h1>Crystal Collector</h1>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="row" id="text">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <h3>Match the crystal amplitude to the given number</h3>
+        <h3>Do NOT go over or you are doomed!</h3>
+          <p>
+            Wins: <span id ="wincount">0</span>
+          </p>
+          <p>
+            Losses: <span id ="losscount">0</span>
+          </p>
+            Match this number: <span id="match"></span>
+          </p>
+          <p>
+            Crystal Amplitude: <span id="cAmp">0</span>
+          </p>
+      </div>
+    </div>
+    
+    <div class="row" id="crystal-line">
+      <div class="col-md-3 col-sm-3 col-xs-3">
+        <img id="c1" class="img-responsive" src="assets/images/crystal1.png" alt="crystal1">
+      </div>
+
+      <div class="col-md-3 col-sm-3 col-xs-3">
+        <img id="c2" class="img-responsive" src="assets/images/crystal2.png" alt="crystal2">
+      </div>
+
+      <div class="col-md-3 col-sm-3 col-xs-3">
+        <img id="c3" class="img-responsive" src="assets/images/crystal3.png" alt="crystal3">
+      </div>
+
+      <div class="col-md-3 col-sm-3 col-xs-3">
+        <img id="c4" class="img-responsive" src="assets/images/crystal4.png" alt="crystal4">
+      </div>
+    </div>
+
+  </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
