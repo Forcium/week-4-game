@@ -31,25 +31,25 @@ $(document).ready(function() {
 
 
       // stacking amps from crystals
-      $('#c1').click(function(){
+      $('#c1').on("click", function() {
 	       amp = amp + cryst1;
           console.log (amp + " c1 amped up");
         $("#cAmp").html(amp);
         clickTotal();     //run function to check if need to update win/loss
       })
-      $('#c2').click(function(){
+      $('#c2').on("click", function() {
 	       amp = amp + cryst2;
           console.log (amp + " c2 amped up");
         $("#cAmp").html(amp);
         clickTotal();     //run function to check if need to update win/loss
       })
-      $('#c3').click(function(){
+      $('#c3').on("click", function() {
 	       amp = amp + cryst3;
           console.log (amp + " c3 amped up");
         $("#cAmp").html(amp);
         clickTotal();     //run function to check if need to update win/loss
       })
-      $('#c4').click(function(){
+      $('#c4').on("click", function() {
 	       amp = amp + cryst4;
           console.log (amp + " c4 amped up");
          $("#cAmp").html(amp);
