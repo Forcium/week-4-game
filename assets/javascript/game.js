@@ -32,25 +32,29 @@ $(document).ready(function() {
 
       // stacking amps from crystals
       $('#c1').on("click", function() {
-	       amp = amp + cryst1;
+        $('#c1').effect('shake', 500 );
+	      amp = amp + cryst1;
           console.log (amp + " c1 amped up");
         $("#cAmp").html(amp);
         clickTotal();     //run function to check if need to update win/loss
       })
       $('#c2').on("click", function() {
-	       amp = amp + cryst2;
+        $('#c2').effect('shake', 500 );
+	      amp = amp + cryst2;
           console.log (amp + " c2 amped up");
         $("#cAmp").html(amp);
         clickTotal();     //run function to check if need to update win/loss
       })
       $('#c3').on("click", function() {
-	       amp = amp + cryst3;
+        $('#c3').effect('shake', 500 );
+	      amp = amp + cryst3;
           console.log (amp + " c3 amped up");
         $("#cAmp").html(amp);
         clickTotal();     //run function to check if need to update win/loss
       })
       $('#c4').on("click", function() {
-	       amp = amp + cryst4;
+        $('#c4').effect('shake', 500 );
+	      amp = amp + cryst4;
           console.log (amp + " c4 amped up");
          $("#cAmp").html(amp);
          clickTotal();     //run function to check if need to update win/loss
@@ -63,7 +67,7 @@ $(document).ready(function() {
                 setTimeout(function(){
                   alert("Winner");
                   reset();
-                }, 1);
+                }, 500);
             }
             else if(amp > randomNum){
               loss = loss + 1;
@@ -71,7 +75,7 @@ $(document).ready(function() {
                 setTimeout(function(){
                   alert("Loser");
                   reset();
-                }, 1);
+                }, 500);
             }
           }
 
