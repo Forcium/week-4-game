@@ -15,10 +15,15 @@
 #crystal-line {
   padding-left: 10%;
   padding-right: 10%;
+  margin-bottom: 5%;
 }
 
 body {
   background-color: lightgray;
 
   margin: auto 2%;
+}
+
+p {
+  color: green;
 }
